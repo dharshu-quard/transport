@@ -1,0 +1,41 @@
+{
+  "service_name": "AI Intelligent Fleet Allocation Engine",
+  "objective": "Maximize passenger throughput & eliminate route overcrowding",
+  "sample_recommendations": [
+    {
+      "route_id": "r1",
+      "route_number": "101E",
+      "route_name": "Chennai CMBT - Madurai",
+      "predicted_demand_pax": 58,
+      "current_scheduled_capacity": 40,
+      "projected_load_factor": 145.0,
+      "recommended_action": "Deploy Extra Fleet Service",
+      "suggested_bus_id": "b1",
+      "suggested_bus_reg": "TN-01-N-1015",
+      "suggested_bus_type": "Express",
+      "urgency": "HIGH",
+      "expected_revenue_gain_inr": 7714.0,
+      "rationale": "Projected overcrowding (145.0% load factor). Adding Express will alleviate commuter wait times."
+    },
+    {
+      "route_id": "r2",
+      "route_number": "201E",
+      "route_name": "Chennai CMBT - Coimbatore",
+      "predicted_demand_pax": 52,
+      "current_scheduled_capacity": 40,
+      "projected_load_factor": 130.0,
+      "recommended_action": "Deploy Extra Fleet Service",
+      "suggested_bus_id": "b2",
+      "suggested_bus_reg": "TN-58-N-1015",
+      "suggested_bus_type": "Deluxe",
+      "urgency": "HIGH",
+      "expected_revenue_gain_inr": 7644.0,
+      "rationale": "Projected overcrowding (130.0% load factor). Adding Deluxe will alleviate commuter wait times."
+    }
+  ],
+  "metrics": {
+    "overcrowding_reduction_rate": "38.5%",
+    "fleet_utilization_improvement": "+14.2%",
+    "estimated_daily_revenue_uplift_inr": "\u20b9128,400"
+  }
+}

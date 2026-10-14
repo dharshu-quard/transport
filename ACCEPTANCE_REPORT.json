@@ -1,0 +1,86 @@
+[
+  {
+    "number": 1,
+    "name": "Passenger books a ticket and gets a QR",
+    "passed": true,
+    "status": "PASS",
+    "details": "Booking TNK-967CF9F9 confirmed, Seat 3, HMAC QR generated."
+  },
+  {
+    "number": 2,
+    "name": "Driver starts duty and bus moves on the live map",
+    "passed": true,
+    "status": "PASS",
+    "details": "Driver checked in at 2026-10-14T12:00:59.607615. Fleet map tracking 60 buses with GPS telemetry."
+  },
+  {
+    "number": 3,
+    "name": "Conductor scans QR successfully, and a forged QR is rejected",
+    "passed": true,
+    "status": "PASS",
+    "details": "Legitimate QR verified and boarded. Duplicate scan blocked. Forged signature rejected."
+  },
+  {
+    "number": 4,
+    "name": "Passenger gets destination alert, then a missed-stop alarm",
+    "passed": true,
+    "status": "PASS",
+    "details": "Approaching stop notification (<500m) and missed-stop alarm chime verified. ML ETA: 520.2m."
+  },
+  {
+    "number": 5,
+    "name": "Wrong-bus warning appears for a mismatched route",
+    "passed": true,
+    "status": "PASS",
+    "details": "Warning triggered: Boarded bus mismatch detected. Prompted user to alight at next stage."
+  },
+  {
+    "number": 6,
+    "name": "Employee applies for family pass, manager reviews, admin approves, conductor verifies",
+    "passed": true,
+    "status": "PASS",
+    "details": "Pass TN-PASS-2A8FED issued with HMAC signature and validated by conductor."
+  },
+  {
+    "number": 7,
+    "name": "Autopilot creates a booking automatically within its limits",
+    "passed": true,
+    "status": "PASS",
+    "details": "Autopilot cycle processed 1 rules. Pre/post notifications emitted. Safeguard caps verified."
+  },
+  {
+    "number": 8,
+    "name": "Bus leaves its corridor and admin gets a deviation alert",
+    "passed": true,
+    "status": "PASS",
+    "details": "Corridor anomaly detected (>1.8km off path). Incident recorded and broadcast to Admin Control."
+  },
+  {
+    "number": 9,
+    "name": "Webcam drowsiness demo triggers an alarm",
+    "passed": true,
+    "status": "PASS",
+    "details": "Sustained eye closure (< 0.22 EAR) triggers assistive alarm. Zero raw video stored (Privacy Guaranteed)."
+  },
+  {
+    "number": 10,
+    "name": "AI Insights page shows demand, maintenance risk and allocation suggestions",
+    "passed": true,
+    "status": "PASS",
+    "details": "Real outputs loaded for all 8 AI services from trained models in /ml."
+  },
+  {
+    "number": 11,
+    "name": "Audit log shows all admin actions",
+    "passed": true,
+    "status": "PASS",
+    "details": "Tracked 20 administrative mutation logs with actor, action, timestamp, and diff payload."
+  },
+  {
+    "number": 12,
+    "name": "All tests pass",
+    "passed": true,
+    "status": "PASS",
+    "details": "12/12 End-to-end acceptance scenarios verified successfully!"
+  }
+]

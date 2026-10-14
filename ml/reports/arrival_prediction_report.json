@@ -1,0 +1,13 @@
+{
+  "model_name": "Dynamic Bus Arrival Time (ETA) Predictor",
+  "algorithm": "GradientBoostingRegressor(n_estimators=100, max_depth=5)",
+  "samples_trained": 3200,
+  "test_samples": 800,
+  "metrics": {
+    "ml_model_mae_minutes": 4.76,
+    "ml_model_rmse_minutes": 7.189,
+    "ml_model_r2_score": 0.9965,
+    "naive_baseline_mae_minutes": 53.068,
+    "improvement_percentage": 91.03
+  }
+}

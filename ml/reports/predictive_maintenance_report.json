@@ -1,0 +1,47 @@
+{
+  "model_name": "Fleet Predictive Maintenance Risk Classifier",
+  "algorithm": "RandomForestClassifier(n_estimators=100, max_depth=8)",
+  "samples_trained": 2400,
+  "test_samples": 600,
+  "accuracy": 0.9433,
+  "classification_metrics": {
+    "Low": {
+      "precision": 0.9548387096774194,
+      "recall": 0.925,
+      "f1-score": 0.9396825396825397,
+      "support": 160.0
+    },
+    "Moderate": {
+      "precision": 0.9357142857142857,
+      "recall": 0.9825,
+      "f1-score": 0.9585365853658536,
+      "support": 400.0
+    },
+    "High": {
+      "precision": 1.0,
+      "recall": 0.625,
+      "f1-score": 0.7692307692307693,
+      "support": 40.0
+    },
+    "accuracy": 0.9433333333333334,
+    "macro avg": {
+      "precision": 0.9635176651305684,
+      "recall": 0.8441666666666667,
+      "f1-score": 0.8891499647597209,
+      "support": 600.0
+    },
+    "weighted avg": {
+      "precision": 0.945099846390169,
+      "recall": 0.9433333333333334,
+      "f1-score": 0.9408884521079642,
+      "support": 600.0
+    }
+  },
+  "feature_importances": {
+    "mileage_km": 0.4001,
+    "days_since_service": 0.3571,
+    "past_breakdowns": 0.1114,
+    "failed_inspections": 0.0853,
+    "engine_temp_avg": 0.0461
+  }
+}

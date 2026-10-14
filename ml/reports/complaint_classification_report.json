@@ -1,0 +1,66 @@
+{
+  "model_name": "Public Complaint Auto-Classification NLP Model",
+  "algorithm": "TfidfVectorizer + MultinomialNB",
+  "training_samples": 69,
+  "test_samples": 24,
+  "accuracy": 1.0,
+  "categories": [
+    "AC Malfunction",
+    "Cleanliness",
+    "Overcrowding",
+    "Driver Behavior",
+    "Ticketing",
+    "Punctuality"
+  ],
+  "metrics": {
+    "AC Malfunction": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 3.0
+    },
+    "Cleanliness": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 5.0
+    },
+    "Driver Behavior": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 5.0
+    },
+    "Overcrowding": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 3.0
+    },
+    "Punctuality": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    },
+    "Ticketing": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 24.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 24.0
+    }
+  }
+}

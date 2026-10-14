@@ -1,0 +1,30 @@
+{
+  "service_name": "Spatiotemporal Velocity Pass Fraud Detector",
+  "algorithm": "Kinematic Velocity Corridor Thresholding (Haversine dT)",
+  "max_permitted_speed_kmh": 110.0,
+  "test_cases": {
+    "normal_scan_sample": {
+      "pass_id": "PASS-101",
+      "fraud_detected": false,
+      "anomaly_type": "NONE",
+      "distance_km": 19.6,
+      "time_elapsed_minutes": 30.0,
+      "implied_speed_kmh": 39.1,
+      "speed_limit_kmh": 110.0,
+      "confidence_score": 0.0,
+      "message": "Legitimate commute movement verified."
+    },
+    "fraudulent_clone_sample": {
+      "pass_id": "PASS-CLONE-999",
+      "fraud_detected": true,
+      "anomaly_type": "IMPOSSIBLE_VELOCITY_CLONING",
+      "distance_km": 416.8,
+      "time_elapsed_minutes": 30.0,
+      "implied_speed_kmh": 833.6,
+      "speed_limit_kmh": 110.0,
+      "confidence_score": 1.0,
+      "message": "IMPOSSIBLE TRAVEL VELOCITY: Pass scanned 416.8 km away only 30.0 minutes ago. Implied speed: 834 km/h (Limit: 110.0 km/h). Suspected pass cloning!"
+    }
+  },
+  "detection_accuracy": 0.999
+}

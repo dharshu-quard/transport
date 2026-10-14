@@ -1,0 +1,18 @@
+{
+  "model_name": "Route Passenger Demand Predictor",
+  "algorithm": "RandomForestRegressor(n_estimators=100, max_depth=10)",
+  "samples_trained": 4000,
+  "test_samples": 1000,
+  "metrics": {
+    "mean_absolute_error_passengers": 2.914,
+    "root_mean_squared_error": 3.797,
+    "r2_score": 0.9091
+  },
+  "feature_importances": {
+    "route_index": 0.1701,
+    "hour_of_day": 0.0135,
+    "day_of_week": 0.0459,
+    "is_weekend": 0.0527,
+    "is_peak": 0.7178
+  }
+}
